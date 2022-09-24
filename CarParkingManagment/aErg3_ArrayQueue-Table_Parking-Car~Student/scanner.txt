@@ -1,0 +1,51 @@
+import java.util.Scanner; 
+        String str; 
+        Scanner input = new Scanner(System.in); 
+        System.out.print("Dose ena String: ");     
+		str = input.next();   
+        System.out.println("To String einai : " + str); 
+
+import java.util.Scanner; 
+	int i; 
+	Scanner input = new Scanner(System.in);
+	System.out.print("Dose ena akeraio: ");
+	int i = input.nextInt();
+	System.out.println("O int : " + i + " + 1 einai: " + (i+1));
+
+
+import java.util.Scanner;
+public class TestScanner {
+ public static void main(String args[]) {
+ byte b;
+ short s;
+ int i;
+ long l;
+ float f;
+ double d;
+ String str;
+ 
+ Scanner input = new Scanner(System.in);
+ 
+ System.out.print("Dose ena byte arithmo: ");
+ b = input.nextByte();
+ System.out.print("Dose ena short arithmo: ");
+ s = input.nextShort();
+ System.out.print("Dose ena akeraio: ");
+ i = input.nextInt();
+ System.out.print("Dose ena long akeraio: ");
+ l = input.nextLong();
+ System.out.print("Dose ena float ar. - me komma sta dekadika: ");
+ f = input.nextFloat();
+ System.out.print("Dose ena double ar. - me komma sta dekadika: ");
+ d = input.nextDouble();
+ System.out.print("Dose ena String: ");
+ str = input.next();
+ System.out.println("O byte : " + b + " + 1 einai: " + (b+1));
+ System.out.println("O short : " + s + " + 1 einai: " + (s+1));
+ System.out.println("O int : " + i + " + 1 einai: " + (i+1));
+ System.out.println("O long : " + l + " + 1 einai: " + (l+1));
+ System.out.println("O float : " + f + " + 1 einai: " + (f+1));
+ System.out.println("O double: " + d + " + 1 einai: " + (d+1));
+ System.out.println("To String einai : " + str);
+ }
+}
